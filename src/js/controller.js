@@ -117,7 +117,8 @@ const controlAddRecipe = async function (data) {
   RecipeView.handleServings(controlServings);
   RecipeView.handleBookmark(controlBookmarks);
   addRecipeView.handleAddRecipe(controlAddRecipe);
-  alert(
-    'just testing  continous integration from local to github to netlify... and also merging from new branch'
-  );
 })();
+alert(
+  'just testing  continous integration from local to github to netlify... and also merging from new branch'
+);
+console.log('dal radi?');
